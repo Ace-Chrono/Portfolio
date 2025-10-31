@@ -11,6 +11,7 @@ const ProjectsPage = () => {
             bgGradient="to-b"
             gradientFrom="#0b132b" 
             gradientTo="#3a506b"
+            color="white"
             py={8}
         >
             <Heading as = {"h1"} size = {"2xl"} textAlign = {"center"} mt={8}>
@@ -41,6 +42,7 @@ const ProjectsPage = () => {
                             href="https://webify-website.vercel.app/"
                             target="_blank"
                             width={100}
+                            bg="white"
                         >
                             Live Now
                         </Button>
@@ -71,6 +73,7 @@ const ProjectsPage = () => {
                             href="https://github.com/Ace-Chrono/Affilial"
                             target="_blank"
                             width={100}
+                            bg="white"
                         >
                             Github
                         </Button>
@@ -101,6 +104,7 @@ const ProjectsPage = () => {
                             href="https://neuro7.itch.io/epithet"
                             target="_blank"
                             width={100}
+                            bg="white"
                         >
                             Live Now
                         </Button>
