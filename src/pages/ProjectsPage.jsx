@@ -38,11 +38,11 @@ const ProjectsPage = () => {
                         </Text>
                         <Button
                             as={Link}
-                            href="https://github.com/Ace-Chrono/Webify-Extension"
+                            href="https://webify-website.vercel.app/"
                             target="_blank"
                             width={100}
                         >
-                            Github
+                            Live Now
                         </Button>
                     </Flex>
                 </Flex>

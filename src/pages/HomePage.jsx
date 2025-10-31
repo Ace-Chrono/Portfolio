@@ -16,7 +16,7 @@ const HomePage = () => {
             py={8}
         >
             {/* Heading */}
-            <Heading as = {"h1"} size = {"3xl"} textAlign = {"center"} mt={8}>
+            <Heading as = {"h1"} size = {"3xl"} textAlign = {"center"} mt={8} color={"white"}>
                 👋 Hello, I am Richard Zhao
             </Heading>
             <Text size = {"l"} textAlign = {"center"} mt={4}>
