@@ -43,6 +43,7 @@ const ProjectsPage = () => {
                             target="_blank"
                             width={100}
                             bg="white"
+                            color="black"
                         >
                             Live Now
                         </Button>
@@ -74,6 +75,7 @@ const ProjectsPage = () => {
                             target="_blank"
                             width={100}
                             bg="white"
+                            color="black"
                         >
                             Github
                         </Button>
@@ -105,6 +107,7 @@ const ProjectsPage = () => {
                             target="_blank"
                             width={100}
                             bg="white"
+                            color="black"
                         >
                             Live Now
                         </Button>
