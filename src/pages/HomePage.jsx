@@ -1,4 +1,4 @@
-import { Box, Button, Text, Container, Flex, Heading, Image, IconButton, Link  } from "@chakra-ui/react";
+import { Box, Button, Text, Container, Flex, Heading, Image, IconButton, Link, List  } from "@chakra-ui/react";
 import { useState } from "react";
 import { MdEmail } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -243,15 +243,17 @@ const HomePage = () => {
                                         <Text fontSize="md" color="gray.400">
                                             Aosenuma | Sep 2025 - Present
                                         </Text>
-                                        <Text fontSize="sm" color="gray.500">
-                                            • Developed unit tests for the Longev.AI Flask backend endpoints and authentication middleware.
-                                        </Text>
-                                        <Text fontSize="sm" color="gray.500">
-                                            • Created middleware to track endpoint usage to debug and removed unused and deprecated endpoints.
-                                        </Text>
-                                        <Text fontSize="sm" color="gray.500">
-                                            • Gained experience with backend refactoring practices and CI/CD pipeline development.
-                                        </Text>
+                                        <List.Root ml={4}>
+                                            <List.Item fontSize="sm" color="gray.500">
+                                                Developed unit tests for the Longev.AI Flask backend endpoints and authentication middleware.
+                                            </List.Item>
+                                            <List.Item fontSize="sm" color="gray.500">
+                                                Created middleware to track endpoint usage to debug and removed unused and deprecated endpoints.
+                                            </List.Item>
+                                            <List.Item fontSize="sm" color="gray.500">
+                                                Gained experience with backend refactoring practices and CI/CD pipeline development.
+                                            </List.Item>
+                                        </List.Root>
                                     </Flex>
                                 </Flex>
 
@@ -272,15 +274,17 @@ const HomePage = () => {
                                         <Text fontSize="md" color="gray.400">
                                             UNCW | Feb 2024 - Aug 2025
                                         </Text>
-                                        <Text fontSize="sm" color="gray.500">
-                                            • Developed deep learning-based image pipelines using YOLO and SAM (Segment Anything Model) to analyze coral recruit and lesion recovery growth.
-                                        </Text>
-                                        <Text fontSize="sm" color="gray.500">
-                                            • Built AI training pipelines with PyTorch, utilizing NumPy and Pandas for data preprocessing, Roboflow for data annotation, and Matplotlib for visualization.
-                                        </Text>
-                                        <Text fontSize="sm" color="gray.500">
-                                            • Provided custom AI-driven annotation tools to the UNCW Coral REEF Lab, Labs at NSU, the Mote Marine Lab, and the Florida Aquarium, reducing annotation time by up to 20x and reducing reliance on commercial solutions costing in the thousands.
-                                        </Text>
+                                        <List.Root ml={4}>
+                                            <List.Item fontSize="sm" color="gray.500">
+                                                Developed deep learning-based image pipelines using YOLO and SAM (Segment Anything Model) to analyze coral recruit and lesion recovery growth.
+                                            </List.Item>
+                                            <List.Item fontSize="sm" color="gray.500">
+                                                Built AI training pipelines with PyTorch, utilizing NumPy and Pandas for data preprocessing, Roboflow for data annotation, and Matplotlib for visualization.
+                                            </List.Item>
+                                            <List.Item fontSize="sm" color="gray.500">
+                                                Provided custom AI-driven annotation tools to the UNCW Coral REEF Lab, Labs at NSU, the Mote Marine Lab, and the Florida Aquarium, reducing annotation time by up to 20x and reducing reliance on commercial solutions costing in the thousands.
+                                            </List.Item>
+                                        </List.Root>
                                     </Flex>
                                 </Flex>
                             </Box>
@@ -308,9 +312,11 @@ const HomePage = () => {
                                         <Text fontSize="md" color="gray.400">
                                             Computer Science | Expected May 2029
                                         </Text>
-                                        <Text fontSize="sm" color="gray.500">
-                                            • Relevant Coursework:  Intro to Programming, Calculus of Functions of One Variable 1 and 2, Data Structures and Algorithms, Discrete Math
-                                        </Text>
+                                        <List.Root ml={4}>
+                                            <List.Item fontSize="sm" color="gray.500">
+                                                Relevant Coursework:  Intro to Programming, Calculus of Functions of One Variable 1 and 2, Data Structures and Algorithms, Discrete Math
+                                            </List.Item>
+                                        </List.Root>
                                     </Flex>
                                 </Flex>
                             </Box>

@@ -31,12 +31,15 @@ const ProjectsPage = () => {
                         src={WebifyImg}
                     ></img>
                     <Flex flexDir={"column"} rowGap={4} justifyContent="space-between" flex="1">
-                        <Text fontWeight="bold" fontSize={"xl"} mt={4}>
-                            Webify
-                        </Text>
-                        <Text fontSize = {"md"}>
-                            A Chrome Extension inspired by the Arc Browser's boost functionality. Accompanied with a website where users can upload and download themes.
-                        </Text>
+                        <Box>
+                            <Text fontWeight="bold" fontSize={"xl"} mt={4}>
+                                Webify
+                            </Text>
+                            <Text fontSize = {"md"} mt={4}>
+                                A Chrome Extension inspired by the Arc Browser's boost functionality. Accompanied with a website where users can upload and download themes.
+                            </Text>
+                        </Box>
+                        
                         <Button
                             as={Link}
                             href="https://webify-website.vercel.app/"
@@ -44,6 +47,7 @@ const ProjectsPage = () => {
                             width={100}
                             bg="white"
                             color="black"
+                            mt={4}
                         >
                             Live Now
                         </Button>
@@ -63,12 +67,14 @@ const ProjectsPage = () => {
                         src={AffilialImg}
                     ></img>
                     <Flex flexDir={"column"} rowGap={4} justifyContent="space-between" flex="1">
-                        <Text fontWeight="bold" fontSize={"xl"} mt={4}>
-                            Affilial
-                        </Text>
-                        <Text fontSize = {"md"}>
-                            A desktop application to allow school CTE departments to store information about business and commnunity partners. 
-                        </Text>
+                        <Box>
+                            <Text fontWeight="bold" fontSize={"xl"} mt={4}>
+                                Affilial
+                            </Text>
+                            <Text fontSize = {"md"} mt={4}>
+                                A desktop application to allow school CTE departments to store information about business and commnunity partners. 
+                            </Text>
+                        </Box>
                         <Button 
                             as={Link}
                             href="https://github.com/Ace-Chrono/Affilial"
@@ -76,6 +82,7 @@ const ProjectsPage = () => {
                             width={100}
                             bg="white"
                             color="black"
+                            mt={4}
                         >
                             Github
                         </Button>
@@ -95,12 +102,15 @@ const ProjectsPage = () => {
                         src={EpithetImg}
                     ></img>
                     <Flex flexDir={"column"} rowGap={4} justifyContent="space-between" flex="1">
-                        <Text fontWeight="bold" fontSize={"xl"} mt={4}>
+                        <Box>
+                            <Text fontWeight="bold" fontSize={"xl"} mt={4}>
                             Epithet
-                        </Text>
-                        <Text fontSize = {"md"}>
-                            A 2d Unity typing game inspired by Tetris, MonkeyType, etc. 
-                        </Text>
+                            </Text>
+                            <Text fontSize = "md" mt={4}>
+                                A 2d Unity typing game inspired by Tetris, MonkeyType, etc. 
+                            </Text>
+                        </Box>
+                        
                         <Button 
                             as={Link}
                             href="https://neuro7.itch.io/epithet"
@@ -108,6 +118,7 @@ const ProjectsPage = () => {
                             width={100}
                             bg="white"
                             color="black"
+                            mt={4}
                         >
                             Live Now
                         </Button>
