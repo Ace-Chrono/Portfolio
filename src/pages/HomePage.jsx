@@ -245,13 +245,46 @@ const HomePage = () => {
                                         </Text>
                                         <List.Root ml={4}>
                                             <List.Item fontSize="sm" color="gray.500">
-                                                Developed unit tests for the Longev.AI Flask backend endpoints and authentication middleware.
+                                                Contributed to the development of Longev.AI, a platform for the Longev Clinic enabling secure document storage and AI-assisted patient care planning.
                                             </List.Item>
                                             <List.Item fontSize="sm" color="gray.500">
-                                                Created middleware to track endpoint usage to debug and removed unused and deprecated endpoints.
+                                                Developed and maintained unit tests for Flask + Supabase backend endpoints and authentication middleware, improving reliability and maintainability of core APIs.
                                             </List.Item>
                                             <List.Item fontSize="sm" color="gray.500">
-                                                Gained experience with backend refactoring practices and CI/CD pipeline development.
+                                                Resolved frontend issues in the React interface to improve user experience and ensure smoother integration between the backend and RAG-based AI features.
+                                            </List.Item>
+                                        </List.Root>
+                                    </Flex>
+                                </Flex>
+
+                                <Flex 
+                                    align="top" 
+                                    gap={4} 
+                                    mb={6}
+                                    >
+                                    {/* Left: Company / Role Image */}
+                                    <Image 
+                                        src="https://media.licdn.com/dms/image/v2/D560BAQFHdZhNhY6ivA/company-logo_200_200/B56ZjeQeTFG0AQ-/0/1756075517479/unc_cs_social_good_logo?e=1764201600&v=beta&t=mWgH0c_DoIjNK33JEXFJMFMZaXNbTkKe3-N_SDItKKQ" 
+                                        alt="UNCCSSG Logo" 
+                                        boxSize="60px" 
+                                        borderRadius="full" 
+                                        objectFit="cover"
+                                    />
+
+                                    {/* Right: Job Details */}
+                                    <Flex direction="column">
+                                        <Text fontWeight="bold" fontSize="lg">
+                                            Project Team Member
+                                        </Text>
+                                        <Text fontSize="md" color="gray.400">
+                                            UNC CS + Social Good | Sep 2025 - Present
+                                        </Text>
+                                        <List.Root ml={4}>
+                                            <List.Item fontSize="sm" color="gray.500">
+                                                Designed and implemented the Flutter UI for the calendar page of a patient support app for CancerLinc, a nonprofit connecting cancer patients with resources.
+                                            </List.Item>
+                                            <List.Item fontSize="sm" color="gray.500">
+                                                Collaborated with a cross-functional team to develop Firebase integration and backend data flow for secure messaging and scheduling features.
                                             </List.Item>
                                         </List.Root>
                                     </Flex>
@@ -310,11 +343,11 @@ const HomePage = () => {
                                             Undergraduate Student
                                         </Text>
                                         <Text fontSize="md" color="gray.400">
-                                            Computer Science | Expected May 2029
+                                            Computer Science | Expected May 2027
                                         </Text>
                                         <List.Root ml={4}>
                                             <List.Item fontSize="sm" color="gray.500">
-                                                Relevant Coursework:  Intro to Programming, Calculus of Functions of One Variable 1 and 2, Data Structures and Algorithms, Discrete Math
+                                                Relevant Coursework:  Data Structures and Algorithms, Discrete Math, Calculus of Functions of One Variable 1 and 2, Intro to Programming
                                             </List.Item>
                                         </List.Root>
                                     </Flex>
