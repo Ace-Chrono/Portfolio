@@ -77,14 +77,14 @@ const ProjectsPage = () => {
                         </Box>
                         <Button 
                             as={Link}
-                            href="https://github.com/Ace-Chrono/Affilial"
+                            href="https://youtu.be/KG52GX8I9hc"
                             target="_blank"
                             width={100}
                             bg="white"
                             color="black"
                             mt={4}
                         >
-                            Github
+                            Demo
                         </Button>
                     </Flex>
                 </Flex>

@@ -3,6 +3,10 @@ import { useState } from "react";
 import { MdEmail } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
+import AosenumaImg from '../assets/Aosenuma.jpg';
+import CSSGImg from '../assets/UNC CSSG.jpg';
+import UNCWImg from '../assets/UNCW.png';
+
 const HomePage = () => {
     const [activeTab, setActiveTab] = useState("work");
 
@@ -228,7 +232,7 @@ const HomePage = () => {
                                     >
                                     {/* Left: Company / Role Image */}
                                     <Image 
-                                        src="https://media.licdn.com/dms/image/v2/D4E0BAQEi67L61C9nXQ/company-logo_200_200/company-logo_200_200/0/1695254717128/aosenuma_logo?e=1762992000&v=beta&t=eo6X9FQjxFoPP6vYwl4Ao2wQgQZarDJ9uprQIAkYkDk" 
+                                        src={AosenumaImg}
                                         alt="Aosenuma Logo" 
                                         boxSize="60px" 
                                         borderRadius="full" 
@@ -241,7 +245,7 @@ const HomePage = () => {
                                             AI Developer Intern
                                         </Text>
                                         <Text fontSize="md" color="gray.400">
-                                            Aosenuma | Sep 2025 - Present
+                                            Aosenuma | Sep 2025 - Jan 2026
                                         </Text>
                                         <List.Root ml={4}>
                                             <List.Item fontSize="sm" color="gray.500">
@@ -264,7 +268,7 @@ const HomePage = () => {
                                     >
                                     {/* Left: Company / Role Image */}
                                     <Image 
-                                        src="https://media.licdn.com/dms/image/v2/D560BAQFHdZhNhY6ivA/company-logo_200_200/B56ZjeQeTFG0AQ-/0/1756075517479/unc_cs_social_good_logo?e=1764201600&v=beta&t=mWgH0c_DoIjNK33JEXFJMFMZaXNbTkKe3-N_SDItKKQ" 
+                                        src={CSSGImg}
                                         alt="UNCCSSG Logo" 
                                         boxSize="60px" 
                                         borderRadius="full" 
@@ -293,7 +297,7 @@ const HomePage = () => {
                                 <Flex align="top" gap={4}>
                                     <Image 
                                         align="flex-start"
-                                        src="https://uncw.edu/_global/img/uncw-logo-navy_222x222.svg" 
+                                        src={UNCWImg}
                                         alt="UNCW Logo" 
                                         boxSize="60px" 
                                         borderRadius="full" 
@@ -343,11 +347,11 @@ const HomePage = () => {
                                             Undergraduate Student
                                         </Text>
                                         <Text fontSize="md" color="gray.400">
-                                            Computer Science | Expected May 2027
+                                            Computer Science (GPA: 3.79 / 4.00) | Expected May 2027
                                         </Text>
                                         <List.Root ml={4}>
                                             <List.Item fontSize="sm" color="gray.500">
-                                                Relevant Coursework:  Data Structures and Algorithms, Discrete Math, Calculus of Functions of One Variable 1 and 2, Intro to Programming
+                                                Relevant Coursework:  Data Structures and Algorithms (Java), Math for Data-science (Multi-variable Calculus/Linear Algebra), Discrete Math, Calculus 1 and 2
                                             </List.Item>
                                         </List.Root>
                                     </Flex>
