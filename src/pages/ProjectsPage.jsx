@@ -1,4 +1,6 @@
 import { Container, Flex, Heading, Box, Center, Button, Text, Link } from "@chakra-ui/react";
+import FidhackImg from '../assets/herfund.jpg'
+import ServerImg from '../assets/server.png'
 import EpithetImg from '../assets/Epithet.png';
 import AffilialImg from '../assets/Affilial.png';
 import WebifyImg from '../assets/Webify.png';
@@ -18,6 +20,78 @@ const ProjectsPage = () => {
                 Projects
             </Heading>
             <Flex flexDir={"row"} justify={"center"} mt={8} columnGap={4} rowGap={4} flexWrap="wrap">
+                <Flex 
+                    flexDir={"column"} 
+                    maxWidth={400}
+                    padding={4}
+                    borderWidth="2px"
+                    borderColor="gray.700"
+                    borderRadius="md"
+                    bg="gray.900"
+                >
+                    <img
+                        src={FidhackImg}
+                    ></img>
+                    <Flex flexDir={"column"} rowGap={4} justifyContent="space-between" flex="1">
+                        <Box>
+                            <Text fontWeight="bold" fontSize={"xl"} mt={4}>
+                                Fidhacks
+                            </Text>
+                            <Text fontSize = {"md"} mt={4}>
+                                Worked on a FastAPI and React app for the 2026 Fidhacks. 
+                            </Text>
+                        </Box>
+                        
+                        <Button
+                            as={Link}
+                            href="https://devpost.com/software/herfund-73jugz"
+                            target="_blank"
+                            width={100}
+                            bg="white"
+                            color="black"
+                            mt={4}
+                        >
+                            Visit
+                        </Button>
+                    </Flex>
+                </Flex>
+
+                <Flex 
+                    flexDir={"column"} 
+                    maxWidth={400}
+                    padding={4}
+                    borderWidth="2px"
+                    borderColor="gray.700"
+                    borderRadius="md"
+                    bg="gray.900"
+                >
+                    <img
+                        src={ServerImg}
+                    ></img>
+                    <Flex flexDir={"column"} rowGap={4} justifyContent="space-between" flex="1">
+                        <Box>
+                            <Text fontWeight="bold" fontSize={"xl"} mt={4}>
+                                Java HTTP Server
+                            </Text>
+                            <Text fontSize = {"md"} mt={4}>
+                                Created a HTTP server from scratch using a restricted set of libraries to enhance personal learning. 
+                            </Text>
+                        </Box>
+                        
+                        <Button
+                            as={Link}
+                            href="https://github.com/Ace-Chrono/Java-HTTP-Server"
+                            target="_blank"
+                            width={100}
+                            bg="white"
+                            color="black"
+                            mt={4}
+                        >
+                            Github
+                        </Button>
+                    </Flex>
+                </Flex>
+
                 <Flex 
                     flexDir={"column"} 
                     maxWidth={400}
