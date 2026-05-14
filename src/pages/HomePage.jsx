@@ -37,7 +37,7 @@ const HomePage = () => {
                 19 year old Undergrad; Intern @ Aosenuma; NC, USA
             </Text>
             <Text size = {"l"} textAlign = {"center"}>
-                Experience in Fullstack and AI, focus in Backend/DevOps.
+                Experience in Fullstack and AI, focus in Backend.
             </Text>
 
             <Flex direction={"column"} align={"center"} mt={4}>
