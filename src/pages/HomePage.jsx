@@ -1,11 +1,20 @@
 import { Box, Button, Text, Container, Flex, Heading, Image, IconButton, Link, List  } from "@chakra-ui/react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { MdEmail } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
+import ReactImg from '../assets/React-icon.svg.png'
+import SpringbootImg from '../assets/spring.png'
+import ExpressImg from '../assets/express.png'
+import NodeImg from '../assets/node.jpg'
+import FastImg from '../assets/fastapi.svg'
+import SupabaseImg from '../assets/supabase.png'
+import MongoImg from '../assets/mongo.png'
+import MysqlImg from '../assets/mysql.png'
 import AosenumaImg from '../assets/Aosenuma.jpg';
 import CSSGImg from '../assets/UNC CSSG.jpg';
 import UNCWImg from '../assets/UNCW.png';
+import UNCImg from '../assets/UNC.png';
 
 const HomePage = () => {
     const [activeTab, setActiveTab] = useState("work");
@@ -99,7 +108,19 @@ const HomePage = () => {
                         {/* React */}
                         <Flex direction="column" align="center">
                             <Image
-                                src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
+                                src={SpringbootImg}
+                                alt="React"
+                                boxSize="40px"
+                            />
+                            <Text fontSize="sm" color="gray.300" mt={2}>
+                                Springboot
+                            </Text>
+                        </Flex>
+
+                        {/* Springboot */}
+                        <Flex direction="column" align="center">
+                            <Image
+                                src={ReactImg}
                                 alt="React"
                                 boxSize="40px"
                             />
@@ -111,7 +132,7 @@ const HomePage = () => {
                         {/* Express */}
                         <Flex direction="column" align="center">
                             <Image
-                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg"
+                                src={ExpressImg}
                                 alt="Express"
                                 boxSize="40px"
                             />
@@ -123,7 +144,7 @@ const HomePage = () => {
                         {/* Node.js */}
                         <Flex direction="column" align="center">
                             <Image
-                                src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+                                src={NodeImg}
                                 alt="Node.js"
                                 boxSize="40px"
                             />
@@ -132,23 +153,23 @@ const HomePage = () => {
                             </Text>
                         </Flex>
 
-                        {/* Flask */}
+                        {/* FastAPI */}
                         <Flex direction="column" align="center">
                             <Image
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmD38KsMgEwahtWc_Nfs5ZVktP9dBc36MUZA&s"
-                                alt="Flask"
+                                src={FastImg}
+                                alt="FastAPI"
                                 boxSize="40px"
                                 borderRadius="full"
                             />
                             <Text fontSize="sm" color="gray.300" mt={2}>
-                                Flask
+                                FastAPI
                             </Text>
                         </Flex>
 
                         {/* Supabase */}
                         <Flex direction="column" align="center">
                             <Image
-                                src="https://miro.medium.com/v2/0*QzPzYLTNRX7p5Rsl"
+                                src={SupabaseImg}
                                 alt="Supabase"
                                 boxSize="40px"
                                 borderRadius="full"
@@ -162,7 +183,7 @@ const HomePage = () => {
                         {/* MongoDB */}
                         <Flex direction="column" align="center">
                             <Image
-                                src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
+                                src={MongoImg}
                                 alt="MongoDB"
                                 boxSize="40px"
                             />
@@ -174,7 +195,7 @@ const HomePage = () => {
                         {/* MySQL */}
                         <Flex direction="column" align="center">
                             <Image
-                                src="https://logoeps.com/wp-content/uploads/2012/03/mysql-vector1.jpg"
+                                src={MysqlImg}
                                 alt="MySQL"
                                 boxSize="40px"
                                 borderRadius="full"
@@ -321,6 +342,9 @@ const HomePage = () => {
                                             <List.Item fontSize="sm" color="gray.500">
                                                 Provided custom AI-driven annotation tools to the UNCW Coral REEF Lab, Labs at NSU, the Mote Marine Lab, and the Florida Aquarium, reducing annotation time by up to 20x and reducing reliance on commercial solutions costing in the thousands.
                                             </List.Item>
+                                            <List.Item fontSize="sm" color="gray.500">
+                                                Led a team of undergraduate researchers to design and deploy AI solutions, resulting in a peer-reviewed research publication.
+                                            </List.Item>
                                         </List.Root>
                                     </Flex>
                                 </Flex>
@@ -334,7 +358,7 @@ const HomePage = () => {
                                     >
                                     {/* Left: Company / Role Image */}
                                     <Image 
-                                        src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/University_of_North_Carolina_at_Chapel_Hill_seal.svg/1200px-University_of_North_Carolina_at_Chapel_Hill_seal.svg.png" 
+                                        src={UNCImg}
                                         alt="UNC Logo" 
                                         boxSize="60px" 
                                         borderRadius="full" 
@@ -347,11 +371,11 @@ const HomePage = () => {
                                             Undergraduate Student
                                         </Text>
                                         <Text fontSize="md" color="gray.400">
-                                            Computer Science (GPA: 3.79 / 4.00) | Expected May 2027
+                                            Computer Science (GPA: 3.91 / 4.00) | Expected May 2029
                                         </Text>
                                         <List.Root ml={4}>
                                             <List.Item fontSize="sm" color="gray.500">
-                                                Relevant Coursework:  Data Structures and Algorithms (Java), Math for Data-science (Multi-variable Calculus/Linear Algebra), Discrete Math, Calculus 1 and 2
+                                                Relevant Coursework:  Systems Fundamentals (C), Data Structures and Algorithms (Java), Math for Data-science (Multi-variable Calculus/Linear Algebra), Discrete Math, Calculus 1 and 2
                                             </List.Item>
                                         </List.Root>
                                     </Flex>
